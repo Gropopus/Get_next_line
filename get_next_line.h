@@ -6,7 +6,7 @@
 /*   By: thsembel <thsembel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/09 15:48:45 by thsembel          #+#    #+#             */
-/*   Updated: 2020/09/10 15:27:40 by thsembel         ###   ########.fr       */
+/*   Updated: 2020/09/10 16:20:44 by thsembel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,6 @@
 # include <unistd.h>
 # include <stdlib.h>
 # include <stdio.h>
-# define BUFFER_SIZE 4096
 
 int		get_next_line(int fd, char **line);
 int		ft_strlen_null(char *str);
