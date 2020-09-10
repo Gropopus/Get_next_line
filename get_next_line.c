@@ -6,7 +6,7 @@
 /*   By: thsembel <thsembel@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/09/09 15:54:15 by thsembel          #+#    #+#             */
-/*   Updated: 2020/09/10 15:43:33 by thsembel         ###   ########.fr       */
+/*   Updated: 2020/09/10 15:53:27 by thsembel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,10 +25,8 @@ static char		*ft_cat_next_line(char *str, char *buff)
 	if ((new_line = malloc(sizeof(char) * (len + 1))) == NULL)
 		return (NULL);
 	if (str)
-	{
 		new_line = ft_strcpy(new_line, str);
-		i = ft_strlen_null(str);
-	}
+	i = ft_strlen_null(str);
 	while (buff[j])
 	{
 		new_line[i + j] = buff[j];
